@@ -1,0 +1,321 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i686-pc-msys
+
+# Make data base, printed on Thu Aug 11 21:01:21 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.5.1
+# environment
+FLASK_APP = app.py
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := /f/[CODINGS]/go-app
+# default
+SHELL := /bin/sh
+# environment
+CLION = D:\Program Files\JetBrains\CLion 2022.1.3\bin;
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = D:\Program Files\VirtualBox\
+# environment
+ONEDRIVE = D:\OneDrive - Khon Kaen University
+# environment
+!F: = f:\[CODINGS]\go-app
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = /tmp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+WEBSTORM = F:\Program Files\JetBrains\WebStorm 2022.1\bin;
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+NDI_RUNTIME_DIR_V3 = C:\Program Files\NewTek\NDI 4 Runtime\v4
+# environment
+VSCODE_CWD = C:\Users\ihoso\AppData\Local\Programs\Microsoft VS Code
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132912987282237676
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\ihoso
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\ihoso\go
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.4.0\
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+PHPSTORM = F:\Program Files\JetBrains\PhpStorm 2022.1.1\bin;
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16516_RUSGIQFQSEMDSEZL
+# environment
+COMPUTERNAME = IHO-PC
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = ihoso
+# environment
+PUBLIC = C:\Users\Public
+# environment
+GOMODCACHE = C:\Users\ihoso\go\pkg\mod
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ihoso\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\IHO-PC
+# environment
+ONEDRIVECONSUMER = C:\Users\ihoso\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = IHO-PC
+# environment
+PLATFORMIO_PATH = C:\Users\ihoso\.platformio\python3;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\STMicroelectronics\st_toolset\asm;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\anaconda3;C:\ffmpeg;C:\ProgramData\ComposerSetup\bin;C:\ProgramData\chocolatey\bin;c:\php;C:\Program Files\dotnet\;C:\Program Files\Microsoft\Web Platform Installer\;C:\flutter\bin;D:\Program Files (x86)\Mitov\Visuino Pro;D:\Program Files\PuTTY\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\GitHub CLI\;F:\Program Files\nodejs\;C:\java\jdk-18.0.2\bin;F:\msys64;F:\MINGW\bin;F:\MINGW\mingw32\bin;F:\MINGW\msys\1.0\bin;C:\Program Files\Go\bin;C:\Users\ihoso\go\bin;F:\Ruby31-x64\bin;C:\Users\ihoso\scoop\apps\Gnupg\current\bin;C:\Users\ihoso\scoop\shims;C:\Users\ihoso\AppData\Local\Microsoft\WindowsApps;C:\Users\ihoso\AppData\Local\Programs\Microsoft VS Code\bin;F:\Program Files\JetBrains\PhpStorm 2021.3\bin;C:\Users\ihoso\AppData\Roaming\Composer\vendor\bin;C:\Users\ihoso\AppData\Local\GitHubDesktop\bin;C:\Users\ihoso\AppData\Local\Programs\oh-my-posh\bin;C:\Users\ihoso\AppData\Local\Programs\oh-my-posh\themes;F:\Program Files\JetBrains\WebStorm 2021.3\bin;F:\Program Files\JetBrains\PyCharm 2021.3\bin;C:\tools\dart-sdk\bin;C:\Users\ihoso\AppData\Roaming\Pub\Cache\bin;F:\Program Files\JetBrains\WebStorm 2022.1\bin;F:\Program Files\JetBrains\PhpStorm 2022.1.1\bin;F:\Program Files\JetBrains\PyCharm 2022.1.2\bin;C:\Users\ihoso\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\ihoso\AppData\Local\Keybase\;C:\Users\ihoso\AppData\Roaming\npm;D:\Program Files\JetBrains\PyCharm 2022.1.3\bin;;D:\Program Files\JetBrains\CLion 2022.1.3\bin;;C:\Users\ihoso\go\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\STMicroelectronics\st_toolset\asm;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\anaconda3;C:\ffmpeg;C:\ProgramData\ComposerSetup\bin;C:\ProgramData\chocolatey\bin;c:\php;C:\Program Files\dotnet\;C:\Program Files\Microsoft\Web Platform Installer\;C:\flutter\bin;D:\Program Files (x86)\Mitov\Visuino Pro;D:\Program Files\PuTTY\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\GitHub CLI\;F:\Program Files\nodejs\;C:\java\jdk-18.0.2\bin;F:\msys64;F:\MINGW\bin;F:\MINGW\mingw32\bin;F:\MINGW\msys\1.0\bin;C:\Program Files\Go\bin;C:\Users\ihoso\go\bin;F:\Ruby31-x64\bin;C:\Users\ihoso\scoop\apps\Gnupg\current\bin;C:\Users\ihoso\scoop\shims;C:\Users\ihoso\AppData\Local\Microsoft\WindowsApps;C:\Users\ihoso\AppData\Local\Programs\Microsoft VS Code\bin;F:\Program Files\JetBrains\PhpStorm 2021.3\bin;C:\Users\ihoso\AppData\Roaming\Composer\vendor\bin;C:\Users\ihoso\AppData\Local\GitHubDesktop\bin;C:\Users\ihoso\AppData\Local\Programs\oh-my-posh\bin;C:\Users\ihoso\AppData\Local\Programs\oh-my-posh\themes;F:\Program Files\JetBrains\WebStorm 2021.3\bin;F:\Program Files\JetBrains\PyCharm 2021.3\bin;C:\tools\dart-sdk\bin;C:\Users\ihoso\AppData\Roaming\Pub\Cache\bin;F:\Program Files\JetBrains\WebStorm 2022.1\bin;F:\Program Files\JetBrains\PhpStorm 2022.1.1\bin;F:\Program Files\JetBrains\PyCharm 2022.1.2\bin;C:\Users\ihoso\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\ihoso\AppData\Local\Keybase\;C:\Users\ihoso\AppData\Roaming\npm;D:\Program Files\JetBrains\PyCharm 2022.1.3\bin;;D:\Program Files\JetBrains\CLion 2022.1.3\bin;;C:\Users\ihoso\go\bin
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = /c/Program Files (x86)/VMware/VMware Player/bin/:/c/Program Files (x86)/STMicroelectronics/st_toolset/asm:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/d/anaconda3:/c/ffmpeg:/c/ProgramData/ComposerSetup/bin:/c/ProgramData/chocolatey/bin:/c/php:/c/Program Files/dotnet/:/c/Program Files/Microsoft/Web Platform Installer/:/c/flutter/bin:/d/Program Files (x86)/Mitov/Visuino Pro:/d/Program Files/PuTTY/:/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/c/Program Files/Git/cmd:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Program Files/GitHub CLI/:/f/Program Files/nodejs/:/c/java/jdk-18.0.2/bin:/f/msys64:/f/MINGW/bin:/f/MINGW/mingw32/bin:/usr/bin:/c/Program Files/Go/bin:/c/Users/ihoso/go/bin:/f/Ruby31-x64/bin:/c/Users/ihoso/scoop/apps/Gnupg/current/bin:/c/Users/ihoso/scoop/shims:/c/Users/ihoso/AppData/Local/Microsoft/WindowsApps:/c/Users/ihoso/AppData/Local/Programs/Microsoft VS Code/bin:/f/Program Files/JetBrains/PhpStorm 2021.3/bin:/c/Users/ihoso/AppData/Roaming/Composer/vendor/bin:/c/Users/ihoso/AppData/Local/GitHubDesktop/bin:/c/Users/ihoso/AppData/Local/Programs/oh-my-posh/bin:/c/Users/ihoso/AppData/Local/Programs/oh-my-posh/themes:/f/Program Files/JetBrains/WebStorm 2021.3/bin:/f/Program Files/JetBrains/PyCharm 2021.3/bin:/c/tools/dart-sdk/bin:/c/Users/ihoso/AppData/Roaming/Pub/Cache/bin:/f/Program Files/JetBrains/WebStorm 2022.1/bin:/f/Program Files/JetBrains/PhpStorm 2022.1.1/bin:/f/Program Files/JetBrains/PyCharm 2022.1.2/bin:/c/Users/ihoso/AppData/Local/JetBrains/Toolbox/scripts:/c/Users/ihoso/AppData/Local/Keybase/:/c/Users/ihoso/AppData/Roaming/npm:/d/Program Files/JetBrains/PyCharm 2022.1.3/bin:.:/d/Program Files/JetBrains/CLion 2022.1.3/bin:.:/c/Users/ihoso/go/bin
+# environment
+FLASK_ENV = development
+# environment
+JAVA_HOME = C:\java\jdk-18.0.2
+# environment
+ONEDRIVECOMMERCIAL = D:\OneDrive - Khon Kaen University
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-1.4.0\lib\
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\ihoso\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\161f6206bbec7b998e4874a158955dc7-1.70.1-main-sock
+# environment
+HOMEPATH = \
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\ihoso\AppData\Roaming
+# environment
+TEMP = /tmp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan Library-1.4.0\x86\lib\
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+LC_ALL = C
+# environment
+NDI_RUNTIME_DIR_V2 = C:\Program Files\NewTek\NDI 4 Runtime\v4
+# environment
+NDI_RUNTIME_DIR_V4 = C:\Program Files\NewTek\NDI 4 Runtime\v4
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 0802
+# environment
+PYCHARM = D:\Program Files\JetBrains\PyCharm 2022.1.3\bin;
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+TERM = cygwin
+# environment
+VSCODE_PID = 16516
+# environment
+USERDOMAIN_ROAMINGPROFILE = IHO-PC
+# variable set hash-table stats:
+# Load=110/1024=11%, Rehash=0, Collisions=11/132=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 17769, inode 3236424): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Thu Aug 11 21:01:21 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+
