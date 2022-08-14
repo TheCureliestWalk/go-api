@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 
 # This program built for i686-pc-msys
 
-# Make data base, printed on Thu Aug 11 21:01:21 2022
+# Make data base, printed on Sun Aug 14 18:23:54 2022
 
 # Variables
 
@@ -51,6 +51,8 @@ ONEDRIVE = D:\OneDrive - Khon Kaen University
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
 # makefile
 MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 TMP = /tmp
 # environment
@@ -96,7 +98,7 @@ PHPSTORM = F:\Program Files\JetBrains\PhpStorm 2022.1.1\bin;
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16516_RUSGIQFQSEMDSEZL
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9480_FOGNBXTSNAGWRJCK
 # environment
 COMPUTERNAME = IHO-PC
 # environment
@@ -116,7 +118,7 @@ CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\ihoso\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
@@ -228,11 +230,13 @@ PROCESSOR_LEVEL = 23
 # environment
 TERM = cygwin
 # environment
-VSCODE_PID = 16516
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 9480
 # environment
 USERDOMAIN_ROAMINGPROFILE = IHO-PC
 # variable set hash-table stats:
-# Load=110/1024=11%, Rehash=0, Collisions=11/132=8%
+# Load=112/1024=11%, Rehash=0, Collisions=11/134=8%
 
 # Pattern-specific Variable Values
 
@@ -240,9 +244,9 @@ USERDOMAIN_ROAMINGPROFILE = IHO-PC
 
 # Directories
 
-# . (device 17769, inode 3236424): 10 files, no impossibilities.
+# . (device 17769, inode 3236424): 13 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -314,7 +318,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Aug 11 21:01:21 2022
+# Finished Make data base on Sun Aug 14 18:23:54 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.

@@ -1,19 +1,19 @@
 package main
 
 import (
-	"app/database"
-	"app/middleware"
-	"app/users"
 	"fmt"
 	"net/http"
 
+	"github.com/TheCureliestWalk/go-api/middleware"
+	"github.com/TheCureliestWalk/go-api/routes/users"
+	"github.com/TheCureliestWalk/go-api/services"
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
 	r := gin.Default()
 	fmt.Println("Server starting...")
-	_, sql, err := database.Connect()
+	_, sql, err := services.Connect()
 	defer sql.Close()
 	if err != nil {
 		fmt.Println("error", err.Error())
